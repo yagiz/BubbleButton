@@ -50,21 +50,21 @@ You can customize these properties in Interface Builder or by code:
 
 ### Properties
 ```swift
-titleForProgress:String!
-titleForCompletion:String!
+titleForProgress:String
+titleForCompletion:String
     
-endAnimationDuration:Float = 0.8
-fadeOutAnimationDelay:Float = 0.5
-fadeOutAnimationDuration:Float = 0.5
+endAnimationDuration:Float
+fadeOutAnimationDelay:Float
+fadeOutAnimationDuration:Float
     
-bubbleColor:UIColor = UIColor.black
-bubbleCount:Int = 10
+bubbleColor:UIColor
+bubbleCount:Int
     
-bubbleSpeedMin:CGFloat = 3
-bubbleSpeedMax:CGFloat = 6
+bubbleSpeedMin:CGFloat
+bubbleSpeedMax:CGFloat
     
-bubbleRadiusMin:CGFloat = 5
-bubbleRadiusMax:CGFloat = 20
+bubbleRadiusMin:CGFloat
+bubbleRadiusMax:CGFloat
 ```
 
 ### Direction
