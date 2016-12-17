@@ -16,8 +16,7 @@ Just download or clone the repo and move BubbleButton.swift file to your project
 
 #### Interface Builder
 In Interface Builder you can set BubbleButton to Custom Class property of your button. Just do not forget the module field. Then you can customize its properties.
-
-![N|Solid](http://146.185.160.107/wp-content/uploads/2016/12/custom_class_ss.png)
+![Alt text](http://146.185.160.107/wp-content/uploads/2016/12/custom_class_ss.png)
 
 #### By Code
 ```swift
@@ -48,6 +47,8 @@ You can start animating button after it's tapped. After your progress is complet
 
 ### Customize
 You can customize these properties in Interface Builder or by code:
+
+### Properties
   - titleForProgress 
   - titleForCompletion
   - endAnimationDuration
@@ -59,6 +60,23 @@ You can customize these properties in Interface Builder or by code:
   - bubbleSpeedMax
   - bubbleRadiusMin
   - bubbleRadiusMax
+
+### Direction
+direction argument of ```startBubbleAnimationWith```determines where bubbles move to.
+```swift
+public enum BubbleDirection
+{
+    case Top
+    case Left
+    case Bottom
+    case Right
+    
+    case TopLeft
+    case TopRight
+    case BottomLeft
+    case BottomRight
+}
+```
 
 License
 ----
