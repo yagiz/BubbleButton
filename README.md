@@ -16,7 +16,7 @@ Just download or clone the repo and move BubbleButton.swift file to your project
 
 #### Interface Builder
 In Interface Builder you can set BubbleButton to Custom Class property of your button. Just do not forget the module field. Then you can customize its properties.
-![Alt text](http://146.185.160.107/wp-content/uploads/2016/12/custom_class_ss.png)
+![N|Solid](http://146.185.160.107/wp-content/uploads/2016/12/custom_class_ss.png)
 
 #### By Code
 ```swift
