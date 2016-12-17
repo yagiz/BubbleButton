@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'BubbleButton'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'By far the most fantastic view I have seen in my entire life. No joke.'
  
   s.description      = <<-DESC
@@ -13,6 +13,6 @@ This fantastic view changes its color gradually makes your app look fantastic!
   s.source           = { :git => 'https://github.com/yagiz/BubbleButton.git', :tag => s.version.to_s }
  
   s.ios.deployment_target = '10.0'
-  s.source_files = 'BubbleButton/*'
+  s.source_files = 'BubbleButton/BubbleButton.swift'
  
 end
