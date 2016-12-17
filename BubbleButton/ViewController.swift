@@ -26,6 +26,11 @@ class ViewController: UIViewController {
             print("endingAnimation")
             self.bubbleButton.endAnimationWith {
                 print("animationIsEnded")
+                
+                DispatchQueue.main.asyncAfter(deadline: .now() + 5)
+                {
+                    self.buttonAction(sender)
+                }
             }
         }
     }
