@@ -49,17 +49,23 @@ You can start animating button after it's tapped. After your progress is complet
 You can customize these properties in Interface Builder or by code:
 
 ### Properties
-  - titleForProgress 
-  - titleForCompletion
-  - endAnimationDuration
-  - fadeOutAnimationDelay
-  - fadeOutAnimationDuration
-  - bubbleColor
-  - bubbleCount
-  - bubbleSpeedMin
-  - bubbleSpeedMax
-  - bubbleRadiusMin
-  - bubbleRadiusMax
+```swift
+titleForProgress:String!
+titleForCompletion:String!
+    
+endAnimationDuration:Float = 0.8
+fadeOutAnimationDelay:Float = 0.5
+fadeOutAnimationDuration:Float = 0.5
+    
+bubbleColor:UIColor = UIColor.black
+bubbleCount:Int = 10
+    
+bubbleSpeedMin:CGFloat = 3
+bubbleSpeedMax:CGFloat = 6
+    
+bubbleRadiusMin:CGFloat = 5
+bubbleRadiusMax:CGFloat = 20
+```
 
 ### Direction
 direction argument of ```startBubbleAnimationWith```determines where bubbles move to.
