@@ -1,10 +1,10 @@
 Pod::Spec.new do |s|
   s.name             = 'BubbleButton'
   s.version          = '0.1.1'
-  s.summary          = 'By far the most fantastic view I have seen in my entire life. No joke.'
+  s.summary          = 'BubbleButton is a Swift 3 UIButton subclass which produces fancy bubbles when it's tapped.'
  
   s.description      = <<-DESC
-This fantastic view changes its color gradually makes your app look fantastic!
+In Interface Builder you can set BubbleButton to Custom Class property of your button. Just do not forget the module field. Then you can customize its properties.
                        DESC
  
   s.homepage         = 'https://github.com/yagiz/BubbleButton'

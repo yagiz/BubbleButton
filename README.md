@@ -1,5 +1,5 @@
 # BubbleButton
-BubbleButton is Swift 3 button wihch does producuse bubbles.
+BubbleButton is a Swift 3 UIButton subclass which produces fancy bubbles when it's tapped.
 
 ![N|Solid](http://146.185.160.107/wp-content/uploads/2016/12/bubbleButtonVideo.mov.gif)
 
